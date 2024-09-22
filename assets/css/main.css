@@ -4050,3 +4050,17 @@ input, select, textarea {
 				}
 
 		}
+
+/* Style for the container that holds the images */
+.image-row {
+    display: flex;
+    justify-content: space-around; /* Distributes images evenly */
+    align-items: center;           /* Vertically centers the images */
+    padding: 20px;                 /* Optional padding around the row */
+}
+
+/* Style for the images */
+.image-row img {
+    max-width: 30%;  /* Ensures the images take up 30% of the row */
+    height: auto;    /* Maintain aspect ratio of the images */
+}
