@@ -4064,3 +4064,10 @@ input, select, textarea {
     max-width: 30%;  /* Ensures the images take up 30% of the row */
     height: auto;    /* Maintain aspect ratio of the images */
 }
+
+.circle-img {
+	width: 200px; /* Adjust width to fit your design */
+	height: 200px; /* Ensure height is equal to width for a perfect circle */
+	border-radius: 50%; /* This makes the image circular */
+	object-fit: cover; /* Ensures the image covers the circular area without distortion */
+}
