@@ -99,11 +99,11 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-color: #EBEBEB;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #b9d0f4 25%,#f69b62 75%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #b9d0f4  25%, #f69b62 75%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #b9d0f4 25%, #f69b62 75%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg,  #b9d0f4  25%, #f69b62 75%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,7 @@ input, select, textarea {
 /* Type */
 
 	body {
-		background-color: #935d8c;
+		background-color: #EBEBEB;
 		color: rgba(255, 255, 255, 0.65);
 	}
 
@@ -315,7 +315,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #636363;
 	}
 
 	blockquote {
@@ -1933,7 +1933,7 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: rgba(201, 13, 13, 0.075);
 		}
 
 		input[type="submit"]:active,
@@ -2167,7 +2167,7 @@ input, select, textarea {
 
 		select option {
 			color: #ffffff;
-			background: #935d8c;
+			background: #195FC5;
 		}
 
 	input[type="checkbox"] + label,
@@ -2185,7 +2185,7 @@ input, select, textarea {
 	input[type="radio"]:checked + label:before {
 		background-color: #ffffff;
 		border-color: #ffffff;
-		color: #935d8c;
+		color: #5d6193;
 	}
 
 	input[type="checkbox"]:focus + label:before,
@@ -2884,23 +2884,23 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #195FC5;
 			}
 
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #4e85d7;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #70a1dc;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #e5a859;
 			}
 
 			.statistics li.style5 {
-				background-color: #8cc9f0;
+				background-color: #e69214;
 			}
 
 			.statistics li strong, .statistics li b {
@@ -3221,7 +3221,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #b9d0f4;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3293,11 +3293,11 @@ input, select, textarea {
 				}
 
 					#nav ul li a:hover {
-						background-color: rgba(222, 222, 222, 0.25);
+						background-color: #c6daf7;						;
 					}
 
 					#nav ul li a.active {
-						background-color: #ffffff;
+						background-color: #c6daf7;
 						box-shadow: none;
 					}
 
@@ -3546,10 +3546,10 @@ input, select, textarea {
 
 		#main header.major h2:after {
 			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-image: -moz-linear-gradient(90deg, #ff914d, #86bee0, #195FC5);
+			background-image: -webkit-linear-gradient(90deg, #ff914d,#86bee0, #195FC5);
+			background-image: -ms-linear-gradient(90deg, #ff914d, #86bee0, #195FC5);
+			background-image: linear-gradient(90deg,#ff914d, #86bee0, #195FC5);
 		}
 
 		#main table tbody tr {
@@ -3850,7 +3850,7 @@ input, select, textarea {
 					-webkit-transition: opacity 0.5s ease;
 					-ms-transition: opacity 0.5s ease;
 					transition: opacity 0.5s ease;
-					content: '';
+					
 					display: block;
 					position: absolute;
 					top: 0;
@@ -3931,19 +3931,19 @@ input, select, textarea {
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #6d7ff3;
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #7ecaf6;
+				background-color: #7ed6f6;
 			}
 
 			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
+				background-color: #f57450;
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #ff914d;
 			}
 
 			.tiles article.style5 > .image:before {
@@ -3951,7 +3951,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #ff914d;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -3962,7 +3962,7 @@ input, select, textarea {
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
+					background-color: #195FC5;
 					opacity: 0.35;
 				}
 
@@ -4066,8 +4066,9 @@ input, select, textarea {
 }
 
 .circle-img {
-	width: 200px; /* Adjust width to fit your design */
-	height: 200px; /* Ensure height is equal to width for a perfect circle */
+	width: 300px; /* Adjust width to fit your design */
+	height:300px; /* Ensure height is equal to width for a perfect circle */
 	border-radius: 50%; /* This makes the image circular */
 	object-fit: cover; /* Ensures the image covers the circular area without distortion */
+	border: 1px solid #195FC5; /* Adds a solid black border around the circle */
 }
